@@ -35,9 +35,6 @@ exclude:
    - Gemfile.lock
    - vendor
 
-# Theme
-remote_theme: pmarsceill/just-the-docs
-
 # Theme "Just the docs" settings
 logo: "/assets/images/logo_400x400.png"
 search_enabled: true

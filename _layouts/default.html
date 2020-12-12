@@ -1,0 +1,27 @@
+---
+---
+
+{%- assign target_url = "https://openbikesensor.github.io" | append: page.url -%}
+
+<html>
+<head>
+  <meta http-equiv="refresh" content="0; url={{ target_url }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      text-align: center;
+      max-width: 30rem;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>We've moved</h1>
+
+  <p>
+    You should be redirected to <a href="{{ target_url }}">{{ target_url }}</a>. If
+    not, please click the link yourself. Also, you might want to update your bookmarks!
+  </p>
+</body>
+</html>
