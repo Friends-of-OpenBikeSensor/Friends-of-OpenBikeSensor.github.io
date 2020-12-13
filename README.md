@@ -1,15 +1,12 @@
-# Find the documentation
+# Repository was moved!!!
 
-You can find the documentation at: https://friends-of-openbikesensor.github.io
+You can find the new repository here:
+**https://github.com/openbikesensor/openbikesensor.github.io**
 
-## Build docs locally
+This repository and associated github pages are left in place to provide HTTP
+redirects (through `<meta>` tags) on the old URLs.
 
-1. Follow the official installation guides: https://jekyllrb.com/docs/installation/
-2. Clone this repo
-3. Run the following commands
-  ```bash
-  cd Friends-of-OpenBikeSensor.github.io/
-  bundle install
-  make
-  ```
-4. Open: http://127.0.0.1:4000
+Please update your git remote url to continue working on the contents:
+
+    git remote set-url origin git@github.com:openbikesensor/openbikesensor.github.io
+    
